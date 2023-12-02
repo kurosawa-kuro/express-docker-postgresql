@@ -1,6 +1,7 @@
 # express-docker-postgresql
 
-cd docker-compose/database/
+cd docker-compose/database/  
+mv .env-sample .env
 docker-compose up
 
 node app.js
